@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import {ContarModule} from './contar/contar.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import {ContarModule} from './contar/contar.module';
   ],
   imports: [
     BrowserModule,
-    ContarModule
+    ContarModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
